@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Virtual environments (any variant: .venv, .venv-swift, venv*, env*)
+.venv/
+.venv*/
+venv/
+venv-*/
+env/
+
+# Outputs / checkpoints / logs
+outputs/
+output/
+logs/
+checkpoints/
+*.pt
+*.bin
+*.safetensors
+*.log
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Local-only: not distributed with the release
+tests/
+docs/
+assets/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+*debug*
